@@ -34,6 +34,7 @@ public class EvnTest {
         int result= Calculator.add(4,2);
         System.out.print(result);
         assertEquals(6,result);
+        Allure.addAttachment("time","image/png", String.valueOf(this.getClass().getResource("D:\\work\\idea\\demo2\\src\\main\\resources\\timg.png")),"png");
     }
     @Test
     public void subTractTest(){
